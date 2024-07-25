@@ -32,7 +32,7 @@ if st.button('Prediksi'):
         if diabetes_prediksi[0] == 1:
             Kanker_Payudara_diagnosis = 'Tidak Terkena Kanker Payudara'
         else:
-            dKanker_Payudara_diagnosis = 'Terkena Kanker Payudara'
+            Kanker_Payudara_diagnosis = 'Terkena Kanker Payudara'
             
         st.success(Kanker_Payudara_diagnosis)
     except ValueError:
